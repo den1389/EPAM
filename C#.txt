@@ -1,0 +1,17 @@
+using System;
+
+class Program {
+    static void Main() {
+        int price;
+        string productName;
+
+        Console.Write("Введіть назву продукту: ");
+        productName = Console.ReadLine();
+
+        Console.Write("Введіть ціну продукту: ");
+        price = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("\nІнформація про продукт:");
+        Console.WriteLine("Назва: " + productName + "\nЦіна: " + price);
+    }
+}

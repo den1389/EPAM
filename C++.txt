@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    int price;
+    string productName;
+
+    cout << "Введіть назву продукту: ";
+    getline(cin, productName);
+
+    cout << "Введіть ціну продукту: ";
+    cin >> price;
+
+    cout << "\nІнформація про продукт:\n";
+    cout << "Назва: " << productName << "\nЦіна: " << price << "\n";
+
+    return 0;
+}
